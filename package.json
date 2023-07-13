@@ -1,0 +1,21 @@
+{
+    "name": "react-template",
+    "version": "1.0.0",
+    "description": "Personal React Template",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint . --ext .js",
+        "lint:fix": "eslint --fix . --ext .js"
+    },
+    "bin": "./index.js",
+    "author": "Ray Flanagan",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "4.1.2",
+        "cross-spawn": "^7.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0"
+    }
+}
