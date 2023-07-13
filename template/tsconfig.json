@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "lib": [
             "DOM.Iterable",
             "DOM",
@@ -9,17 +9,17 @@
             "ES2019.Array"
         ],
         "allowJs": true,
-        "noEmit": true,
+        "noEmit": false,
         "resolveJsonModule": true,
         "isolatedModules": false,
         "downlevelIteration": true,
-        "jsx": "preserve",
+        "jsx": "react-jsx",
         "incremental": true,
-        "module": "ES2020",
         "rootDir": "./",
         "moduleResolution": "node",
         // "baseUrl": "./src",
         "paths": {
+            "*": ["./src/*.d.ts"],
             "@/*": ["./src/*"]
         },
         "esModuleInterop": true,
