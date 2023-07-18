@@ -30,4 +30,4 @@ fs.writeFileSync(
 spawn.sync('yarn', { stdio: 'inherit', cwd: projectDir });
 
 console.log(chalk.green('Success! Your new project is ready.'));
-console.log(chalk.green(`Created ${ projectName } at ${ projectDir }`));
+console.log(`Created ${ projectName } at ${ projectDir }`);
