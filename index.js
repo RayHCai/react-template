@@ -28,6 +28,9 @@ fs.writeFileSync(
 );
 
 spawn.sync('yarn', { stdio: 'inherit', cwd: projectDir });
+spawn.sync('git init', { stdio: 'inherit', cwd: projectDir });
+spawn.sync('yarn run prepare', { stdio: 'inherit', cwd: projectDir });
+spawn.sync('npx husky add .husky/pre-commit "npx lint-staged"', { stdio: 'inherit', cwd: projectDir });
 
 console.log(chalk.green('Success! Your new project is ready.'));
 console.log(`Created ${ projectName } at ${ projectDir }`);
