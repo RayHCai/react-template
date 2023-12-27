@@ -17,7 +17,6 @@
         "incremental": true,
         "rootDir": "./",
         "moduleResolution": "node",
-        // "baseUrl": "./src",
         "paths": {
             "*": ["./src/*.d.ts"],
             "@/*": ["./src/*"]
