@@ -7,7 +7,7 @@
         "build": "webpack --mode=production",
         "lint": "eslint \"**/*.{ts,tsx}\"",
         "lint:fix": "eslint --fix --ext .ts,.tsx .",
-		"prepare": "husky install"
+        "prepare": "husky install"
     },
     "dependencies": {
         "react": "^18.2.0",
@@ -32,8 +32,8 @@
         "webpack": "^5.88.1",
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.15.1",
-		"husky": "^8.0.0",
-		"lint-staged": "^14.0.1"
+        "husky": "^8.0.0",
+        "lint-staged": "^14.0.1"
     },
     "browserslist": [
         ">0.2%",
@@ -41,8 +41,8 @@
         "not op_mini all"
     ],
     "lint-staged": {
-		"**/*.{js,ts,tsx}": [
-			"yarn run lint"
-		]
-	}
+        "**/*.{js,ts,tsx}": [
+            "yarn run lint"
+        ]
+    }
 }
