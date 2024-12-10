@@ -111,6 +111,10 @@
                 "namedComponents": "function-declaration",
                 "unnamedComponents": "arrow-function"
             }
+        ],
+        "indent": [
+            "error",
+            4
         ]
     }
 }
